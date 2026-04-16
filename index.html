@@ -30,7 +30,6 @@
       font-size: 18px;
     }
 
-    /* 🔥 subtítulo más fino */
     header p:last-of-type {
       font-size: 15px;
       opacity: 0.9;
@@ -52,12 +51,55 @@
       text-align: center;
     }
 
-    img {
-      width: 250px;
-      border-radius: 12px;
-      margin-bottom: 15px;
+    /* 🔥 INTRO */
+    .intro {
+      background: #eef2f5;
+      padding: 80px 20px;
     }
 
+    .intro h2 {
+      font-size: 42px;
+      color: #1f3c5a;
+      margin-bottom: 20px;
+    }
+
+    .intro p {
+      max-width: 800px;
+      margin: auto;
+      font-size: 18px;
+      color: #5f6f7a;
+      line-height: 1.6;
+    }
+
+    /* 🛡️ BADGES */
+    .badges {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+
+    .badge {
+      background: white;
+      padding: 15px 20px;
+      border-radius: 10px;
+      font-size: 14px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+    }
+
+    /* ⭐ REVIEWS */
+    .reviews {
+      margin-top: 40px;
+      font-size: 16px;
+      color: #444;
+    }
+
+    .reviews p {
+      margin: 10px 0;
+    }
+
+    /* PRODUCTOS */
     .product-grid {
       display: flex;
       justify-content: center;
@@ -86,7 +128,6 @@
 
     .product-card h3 {
       color: #1f3c5a;
-      margin-bottom: 10px;
     }
 
     .product-card p {
@@ -94,6 +135,7 @@
       color: #5f6f7a;
     }
 
+    /* BENEFICIOS */
     .features {
       display: flex;
       justify-content: center;
@@ -115,7 +157,6 @@
       color: white;
       text-align: center;
       padding: 20px;
-      margin-top: 40px;
     }
   </style>
 </head>
@@ -128,6 +169,27 @@
     <p>Descubre nuestra selección de semillas de alta calidad con envío rápido y atención especializada.</p>
     <a class="btn" href="https://www.growbarato.net/224-semillas-de-marihuana">Ver productos</a>
   </header>
+
+  <section class="intro">
+    <h2>Calidad superior para tu cultivo</h2>
+    <p>
+      En TodoSemillas, seleccionamos genéticas de alta calidad para ofrecerte resultados fiables en cada cultivo.
+    </p>
+
+    <!-- 🛡️ BADGES -->
+    <div class="badges">
+      <div class="badge">🚚 Envío 24/48h</div>
+      <div class="badge">📦 Discreción total</div>
+      <div class="badge">🔒 Pago seguro</div>
+    </div>
+
+    <!-- ⭐ REVIEWS -->
+    <div class="reviews">
+      <p>⭐⭐⭐⭐⭐ “Entrega rápida y semillas de calidad”</p>
+      <p>⭐⭐⭐⭐⭐ “Muy buena experiencia, repetiré seguro”</p>
+      <p>⭐⭐⭐⭐⭐ “Germinación perfecta, todo top”</p>
+    </div>
+  </section>
 
   <section>
     <h2>Tipos de semillas de marihuana</h2>
@@ -157,33 +219,6 @@
 
     </div>
 
-  </section>
-
-  <section id="productos">
-    <h2>🌿 Nuestros beneficios</h2>
-
-    <div class="features">
-      <div class="card">
-        <h3>Alta calidad</h3>
-        <p>Semillas seleccionadas para máximo crecimiento y resistencia.</p>
-      </div>
-
-      <div class="card">
-        <h3>Envío rápido</h3>
-        <p>Recibe tus semillas en pocos días directamente en casa.</p>
-      </div>
-
-      <div class="card">
-        <h3>Soporte experto</h3>
-        <p>Te ayudamos a cultivar tu huerto desde cero.</p>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <h2>🌸 Empieza tu huerto hoy</h2>
-    <p>Descubre nuestras semillas y transforma tu jardín</p>
-    <a class="btn" href="#">Comprar ahora</a>
   </section>
 
   <footer>
