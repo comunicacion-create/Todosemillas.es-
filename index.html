@@ -1,24 +1,133 @@
-<div class="product-grid">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todosemillas - Tienda de Semillas</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7f2;
+      color: #2c3e50;
+    }
 
-  <div class="product-card">
-    <img src="https://www.growbarato.net/50858-large_default/banana-hammock.jpg" alt="Semillas feminizadas">
-    <h3>Semillas Feminizadas</h3>
-    <p>Genética estable para cultivos más productivos y sin machos.</p>
-    <a class="btn" href="#">Ver Producto</a>
-  </div>
+    header {
+      background: #2e7d32;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
 
-  <div class="product-card">
-    <img src="https://www.growbarato.net/50858-large_default/banana-hammock.jpg" alt="Semillas autoflorecientes">
-    <h3>Autoflorecientes</h3>
-    <p>Rápidas y fáciles de cultivar, perfectas para principiantes.</p>
-    <a class="btn" href="#">Ver Producto</a>
-  </div>
+    header h1 {
+      margin: 0;
+      font-size: 40px;
+    }
 
-  <div class="product-card">
-    <img src="https://www.growbarato.net/50858-large_default/banana-hammock.jpg" alt="Semillas CBD">
-    <h3>Semillas CBD</h3>
-    <p>Altas en cannabidiol, ideales para usos terapéuticos.</p>
-    <a class="btn" href="#">Ver Producto</a>
-  </div>
+    header p {
+      margin-top: 10px;
+      font-size: 18px;
+    }
 
-</div>
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 20px;
+      background: #ffcc00;
+      color: #000;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .features {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      width: 250px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      color: #2e7d32;
+    }
+
+    img {
+      width: 250px;
+      border-radius: 12px;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background: #1b1b1b;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🌱 TodoSemillas</h1>
+    <p>La mejor tienda de semillas para tu huerto y jardín</p>
+    <a class="btn" href="https://www.growbarato.net/224-semillas-de-marihuana">Ver productos</a>
+  </header>
+
+  <section>
+    <h2>Tipos de semillas de marihuana</h2>
+
+    <img src="https://www.growbarato.net/50858-large_default/banana-hammock.jpg" alt="Semilla feminizada">
+
+    <p>Semillas feminizadas; Semillas autoflorecientes; Semillas de CBD; Semillas de Cáñamo</p>
+  </section>
+
+  <section id="productos">
+    <h2>🌿 Nuestros beneficios</h2>
+
+    <div class="features">
+      <div class="card">
+        <h3>Alta calidad</h3>
+        <p>Semillas seleccionadas para máximo crecimiento y resistencia.</p>
+      </div>
+
+      <div class="card">
+        <h3>Envío rápido</h3>
+        <p>Recibe tus semillas en pocos días directamente en casa.</p>
+      </div>
+
+      <div class="card">
+        <h3>Soporte experto</h3>
+        <p>Te ayudamos a cultivar tu huerto desde cero.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>🌸 Empieza tu huerto hoy</h2>
+    <p>Descubre nuestras semillas y transforma tu jardín</p>
+    <a class="btn" href="#">Comprar ahora</a>
+  </section>
+
+  <footer>
+    © 2026 TodoSemillas - Todos los derechos reservados
+  </footer>
+
+</body>
+</html>
